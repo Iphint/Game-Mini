@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lomba 17 Agustus</title>
+  </head>
+  <body>
+    <div id="game-container">
+      <h1>Lomba 17 Agustus</h1>
+      <div id="name-container">
+        <label for="playerName">Masukkan Nama:</label>
+        <input type="text" id="playerName" />
+        <button id="startButton">Mulai Permainan</button>
+      </div>
+      <div id="flag-container" class="hidden">
+        <p id="playerNameDisplay"></p>
+        <p id="timeDisplay">Waktu sisa: 30 detik</p>
+        <img id="flag" src="" alt="Bendera" />
+      </div>
+      <p>Tangkap bendera Indonesia untuk mendapatkan poin!</p>
+      <p id="score">Skor: 0</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </body>
+</html>
